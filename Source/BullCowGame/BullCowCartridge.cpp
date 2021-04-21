@@ -53,6 +53,8 @@ void UBullCowCartridge::InitGame()
     PrintLine(TEXT("Guess the %i letter word!"), HiddenWord.Len());
     PrintLine(TEXT("You have %i lives."), Lives);
     PrintLine(TEXT("Type in your guess. \nPress enter to continue..."));
+
+    const TCHAR HW[] = TEXT("cakes");
 }
 
 void UBullCowCartridge::EndGame()
